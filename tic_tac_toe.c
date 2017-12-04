@@ -35,7 +35,7 @@ int main() {
 	printf("\nI guess you know what gonna happen next...\n");
 	printf("\nYes! Its the toss time....Press any key to proceed to the toss\n");
 	getch();
-	system("cls");
+	//system("cls");
 	printf("\n\n%s whats your call '1 or '0'?????\nWrong call may make you loose the toss.\n");
 	scanf("%d",&choice);
 	
@@ -228,7 +228,7 @@ int main() {
 	   	 	printf(" %c | %c | %c \n",a[7],a[8],a[9]);
 	if(i+choice!=9)
 	{
-		if(win==1)
+		if(win!=1)
 		printf("%s is winner\n",player1);
 		else
 		printf("%s is winner\n",player2);
